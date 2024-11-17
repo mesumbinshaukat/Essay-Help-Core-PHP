@@ -1,3 +1,23 @@
+<?php
+require_once('./db_config/config.php');
+
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
+
+    $sql = "INSERT INTO `tbl_contact`(`name`, `email`, `phone`, `message`) VALUES('$name', '$email', '$phone', '$message')";
+    $result = $conn->query($sql);
+
+    if ($result) {
+        header("Location: index.php");
+    } else {
+        echo "<script>alert('Error');</script>";
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html class="html" lang="en-US">
 
@@ -1622,64 +1642,40 @@
                                             <div class="elementor-shortcode">
                                                 <div class="wpforms-container wpforms-container-full wpforms-render-modern"
                                                     id="wpforms-416">
-                                                    <form id="wpforms-form-416"
-                                                        class="wpforms-validate wpforms-form wpforms-ajax-form"
-                                                        data-formid="416" method="post" enctype="multipart/form-data"
-                                                        action="index.php"
-                                                        data-token="96442619ab2537bb24cff7f2fbcfd1b3"><noscript
-                                                            class="wpforms-error-noscript">Please enable JavaScript
-                                                            in
-                                                            your browser to complete this form.</noscript>
-                                                        <div class="wpforms-hidden" id="wpforms-error-noscript">
-                                                            Please
-                                                            enable JavaScript in your browser to complete this form.
-                                                        </div>
+                                                    <form method="post">
+
                                                         <div class="wpforms-field-container">
                                                             <div id="wpforms-416-field_0-container"
                                                                 class="wpforms-field wpforms-field-name"
-                                                                data-field-id="0"><input type="text"
-                                                                    id="wpforms-416-field_0"
+                                                                data-field-id="0">
+                                                                <input type="text" id="wpforms-416-field_0"
                                                                     class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][0]" placeholder="Name"
-                                                                    aria-errormessage="wpforms-416-field_0-error"
-                                                                    required></div>
+                                                                    name="name" placeholder="Name" required>
+                                                            </div>
                                                             <div id="wpforms-416-field_1-container"
                                                                 class="wpforms-field wpforms-field-email"
-                                                                data-field-id="1"><input type="email"
-                                                                    id="wpforms-416-field_1"
+                                                                data-field-id="1">
+                                                                <input type="email" id="wpforms-416-field_1"
                                                                     class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][1]" placeholder="Email"
-                                                                    spellcheck="false"
-                                                                    aria-errormessage="wpforms-416-field_1-error"
-                                                                    required></div>
+                                                                    name="email" placeholder="Email" required>
+                                                            </div>
                                                             <div id="wpforms-416-field_4-container"
                                                                 class="wpforms-field wpforms-field-text"
-                                                                data-field-id="4"><input type="text"
-                                                                    id="wpforms-416-field_4"
+                                                                data-field-id="4">
+                                                                <input type="text" id="wpforms-416-field_4"
                                                                     class="wpforms-field-medium wpforms-field-required"
-                                                                    name="wpforms[fields][4]" placeholder="Phone"
-                                                                    aria-errormessage="wpforms-416-field_4-error"
-                                                                    required></div>
+                                                                    name="phone" placeholder="Phone" required>
+                                                            </div>
                                                             <div id="wpforms-416-field_5-container"
                                                                 class="wpforms-field wpforms-field-textarea"
                                                                 data-field-id="5"><textarea id="wpforms-416-field_5"
-                                                                    class="wpforms-field-medium"
-                                                                    name="wpforms[fields][5]" placeholder="Message"
-                                                                    aria-errormessage="wpforms-416-field_5-error"></textarea>
+                                                                    class="wpforms-field-medium" name="message"
+                                                                    placeholder="Message"></textarea>
                                                             </div>
                                                         </div><!-- .wpforms-field-container -->
-                                                        <div class="wpforms-submit-container"><input type="hidden"
-                                                                name="wpforms[id]" value="416"><input type="hidden"
-                                                                name="wpforms[author]" value="1"><input type="hidden"
-                                                                name="wpforms[post_id]" value="8"><button type="submit"
-                                                                name="wpforms[submit]" id="wpforms-submit-416"
-                                                                class="wpforms-submit" data-alt-text="Sending..."
-                                                                data-submit-text="Submit" aria-live="assertive"
-                                                                value="wpforms-submit">Submit</button><img
-                                                                loading="lazy" decoding="async"
-                                                                src="https://writing.sushmagoswami.com/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg"
-                                                                class="wpforms-submit-spinner" style="display: none;"
-                                                                width="26" height="26" alt="Loading"></div>
+                                                        <div class="wpforms-submit-container"><button type="submit"
+                                                                name="submit" id="wpforms-submit-416"
+                                                                class="wpforms-submit">Submit</button></div>
                                                     </form>
                                                 </div> <!-- .wpforms-container -->
                                             </div>

@@ -13,7 +13,7 @@
 
             <div id="site-logo-inner" class="clr">
 
-                <a href="index.html" class="custom-logo-link" rel="home" aria-current="page"><img fetchpriority="high"
+                <a href="index.php" class="custom-logo-link" rel="home" aria-current="page"><img fetchpriority="high"
                         width="388" height="285"
                         src="https://writing.sushmagoswami.com/wp-content/uploads/2024/01/cropped-WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview.png"
                         class="custom-logo" alt="Writing" decoding="async"
@@ -35,7 +35,7 @@
                 <ul id="menu-footer" class="main-menu dropdown-menu sf-menu">
                     <li id="menu-item-717"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-8 current_page_item menu-item-717">
-                        <a href="./index.html" class="menu-link"><span class="text-wrap">Home</span></a>
+                        <a href="./index.php" class="menu-link"><span class="text-wrap">Home</span></a>
                     </li>
                     <li id="menu-item-863"
                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-863"><a
@@ -89,7 +89,7 @@
             </a>
 
 
-            <a href="index.html#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
+            <a href="index.php#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
                 <i class="fa fa-bars" aria-hidden="true"></i>
                 <span class="oceanwp-text">Menu</span>
                 <span class="oceanwp-close-text">Close</span>

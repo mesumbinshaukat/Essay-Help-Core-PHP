@@ -668,7 +668,7 @@
         href="https://writing.sushmagoswami.com/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.4.5" />
     <meta name="generator" content="WooCommerce 8.5.2" />
-    <link rel="canonical" href="index.php" />
+    <link rel="canonical" href="pricing.php" />
     <link rel='shortlink' href='https://writing.sushmagoswami.com/?p=763' />
     <link rel="alternate" type="application/json+oembed"
         href="https://writing.sushmagoswami.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwriting.sushmagoswami.com%2Fpricing%2F" />
