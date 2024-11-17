@@ -13,7 +13,7 @@
 
     <div id="outer-wrap" class="site clr">
 
-        <a class="skip-link screen-reader-text" href="index.html#main">Skip to content</a>
+        <a class="skip-link screen-reader-text" href="index.php#main">Skip to content</a>
 
 
         <div id="wrap" class="clr">
@@ -146,7 +146,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="index.html#">
+                                                        href="index.php#">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span
                                                                 class="elementor-button-icon elementor-align-icon-left">
@@ -170,7 +170,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-button-wrapper">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="index.html#">
+                                                        href="index.php#">
                                                         <span class="elementor-button-content-wrapper">
                                                             <span class="elementor-button-text">Order Now</span>
                                                         </span>
@@ -353,7 +353,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Get In Touch</span>
                                                 </span>
@@ -452,7 +452,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Chat Now</span>
                                                 </span>
@@ -518,7 +518,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Chat Now</span>
                                                 </span>
@@ -556,7 +556,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Chat Now</span>
                                                 </span>
@@ -635,7 +635,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Chat Now</span>
                                                 </span>
@@ -725,7 +725,7 @@
                                     <div class="elementor-widget-container">
                                         <div class="elementor-button-wrapper">
                                             <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="index.html#">
+                                                href="index.php#">
                                                 <span class="elementor-button-content-wrapper">
                                                     <span class="elementor-button-text">Contact Us</span>
                                                 </span>
@@ -1625,7 +1625,7 @@
                                                     <form id="wpforms-form-416"
                                                         class="wpforms-validate wpforms-form wpforms-ajax-form"
                                                         data-formid="416" method="post" enctype="multipart/form-data"
-                                                        action="index.html"
+                                                        action="index.php"
                                                         data-token="96442619ab2537bb24cff7f2fbcfd1b3"><noscript
                                                             class="wpforms-error-noscript">Please enable JavaScript
                                                             in
@@ -1705,7 +1705,7 @@
 
 
 
-    <a aria-label="Scroll to the top of the page" href="index.html#" id="scroll-top" class="scroll-top-right"><i
+    <a aria-label="Scroll to the top of the page" href="index.php#" id="scroll-top" class="scroll-top-right"><i
             class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
 
 
@@ -1716,7 +1716,7 @@
         <div class="owp-qv-container">
             <div class="owp-qv-content-wrap">
                 <div class="owp-qv-content-inner">
-                    <a href="index.html#" class="owp-qv-close" aria-label="Close quick preview">×</a>
+                    <a href="index.php#" class="owp-qv-close" aria-label="Close quick preview">×</a>
                     <div id="owp-qv-content" class="woocommerce single-product"></div>
                 </div>
             </div>
@@ -1724,7 +1724,7 @@
         <div class="owp-qv-overlay"></div>
     </div>
     <div id="oceanwp-cart-sidebar-wrap">
-        <div class="oceanwp-cart-sidebar"><a href="index.html#" class="oceanwp-cart-close">×</a>
+        <div class="oceanwp-cart-sidebar"><a href="index.php#" class="oceanwp-cart-close">×</a>
             <p class="owp-cart-title">Cart</p>
             <div class="divider"></div>
             <div class="owp-mini-cart">

@@ -47,13 +47,13 @@
                                 Us</span></a></li>
                     <li id="menu-item-862"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-862"><a
-                            href="./pricing" class="menu-link"><span class="text-wrap">Pricing</span></a></li>
+                            href="./pricing.php" class="menu-link"><span class="text-wrap">Pricing</span></a></li>
                     <li id="menu-item-718"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
                             href="./contact-us.php" class="menu-link"><span class="text-wrap">Contact Us</span></a></li>
                     <li class="woo-menu-icon wcmenucart-toggle-drop_down toggle-cart-widget">
 
-                        <a href="https://writing.sushmagoswami.com/cart/" class="wcmenucart">
+                        <a href="#" class="wcmenucart">
                             <span class="wcmenucart-count"><i class="fa-solid fa-bag-shopping"></i></i><span
                                     class="wcmenucart-details count">0</span></span>
                         </a>
@@ -83,7 +83,7 @@
 
 
 
-            <a href="https://writing.sushmagoswami.com/cart/" class="wcmenucart">
+            <a href="#" class="wcmenucart">
                 <span class="wcmenucart-count"><i class="fa-solid fa-bag-shopping"></i><span
                         class="wcmenucart-details count">0</span></span>
             </a>
@@ -125,7 +125,7 @@
 
                 <li class="woo-menu-icon wcmenucart-toggle-drop_down toggle-cart-widget">
 
-                    <a href="https://writing.sushmagoswami.com/cart/" class="wcmenucart">
+                    <a href="#" class="wcmenucart">
                         <span class="wcmenucart-count"><i class="fa-solid fa-bag-shopping"></i><span
                                 class="wcmenucart-details count">0</span></span>
                     </a>
