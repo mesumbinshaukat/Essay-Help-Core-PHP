@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('./db_config/config.php');
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
@@ -11,6 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $result = $conn->query(query: $sql);
 
     if ($result) {
+        $_SESSION["register_success"] = "true";
         header("Location: register.php");
     } else {
         echo "<script>alert('Error');</script>";
@@ -1236,13 +1238,29 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     }
     </style>
+
+    <!-- TOASTR CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <!-- TOASTR JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </head>
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-14 wp-custom-logo wp-embed-responsive theme-oceanwp woocommerce-no-js oceanwp-theme dropdown-mobile no-header-border default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs has-grid-list account-original-style elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-14"
     itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
+    <?php
+    #if ($_SESSION["register_success"] != "") {
 
+    #    echo '<script>
+    # toastr.success("Registration Successful");
+    # </script>';
+
+    #  $_SESSION["register_success"] = "";
+    #}
+    ?>
 
     <div id="outer-wrap" class="site clr">
 

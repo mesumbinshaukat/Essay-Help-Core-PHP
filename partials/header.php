@@ -49,9 +49,9 @@
                     <li id="menu-item-718"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
                             href="./contact-us.php" class="menu-link"><span class="text-wrap">Contact Us</span></a></li>
-                    <li id="menu-item-718"
+                    <!-- <li id="menu-item-718"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
-                            href="./login.php" class="menu-link"><span class="text-wrap">Login</span></a></li>
+                            href="./login.php" class="menu-link"><span class="text-wrap">Login</span></a></li> -->
                     <li id="menu-item-718"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
                             href="./register.php" class="menu-link"><span class="text-wrap">Resgiter</span></a></li>
