@@ -13,10 +13,9 @@
                 <div class="footer-box span_1_of_3 col col-1">
                     <div id="block-7" class="footer-widget widget_block widget_media_image clr">
                         <figure class="wp-block-image size-full is-resized"><img loading="lazy" loading="lazy"
-                                decoding="async" width="592" height="421"
-                                src="https://writing.sushmagoswami.com/wp-content/uploads/2024/01/WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview.png"
+                                decoding="async" width="592" height="421" src="./logo/Education Center (2) cropped.png"
                                 alt="" class="wp-image-106" style="width:159px;height:auto"
-                                srcset="https://writing.sushmagoswami.com/wp-content/uploads/2024/01/WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview.png 592w, https://writing.sushmagoswami.com/wp-content/uploads/2024/01/WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview-300x213.png 300w"
+                                srcset="./logo/Education Center (2) cropped.png"
                                 sizes="(max-width: 592px) 100vw, 592px" /></figure>
                     </div>
                     <div id="ocean_contact_info-4" class="footer-widget widget-oceanwp-contact-info clr">

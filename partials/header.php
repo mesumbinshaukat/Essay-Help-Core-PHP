@@ -14,10 +14,8 @@
             <div id="site-logo-inner" class="clr">
 
                 <a href="index.php" class="custom-logo-link" rel="home" aria-current="page"><img fetchpriority="high"
-                        width="388" height="285"
-                        src="https://writing.sushmagoswami.com/wp-content/uploads/2024/01/cropped-WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview.png"
-                        class="custom-logo" alt="Writing" decoding="async"
-                        srcset="https://writing.sushmagoswami.com/wp-content/uploads/2024/01/cropped-WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview.png 388w, https://writing.sushmagoswami.com/wp-content/uploads/2024/01/cropped-WhatsApp_Image_2024-01-02_at_10.49.08-removebg-preview-300x220.png 300w"
+                        width="388" height="285" src="./logo/Education Center (2) cropped.png" class="custom-logo"
+                        alt="Writing" decoding="async" srcset="./logo/Education Center (2) cropped.png"
                         sizes="(max-width: 388px) 100vw, 388px" /></a>
             </div><!-- #site-logo-inner -->
 
@@ -51,6 +49,12 @@
                     <li id="menu-item-718"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
                             href="./contact-us.php" class="menu-link"><span class="text-wrap">Contact Us</span></a></li>
+                    <li id="menu-item-718"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
+                            href="./login.php" class="menu-link"><span class="text-wrap">Login</span></a></li>
+                    <li id="menu-item-718"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-718"><a
+                            href="./register.php" class="menu-link"><span class="text-wrap">Resgiter</span></a></li>
                     <li class="woo-menu-icon wcmenucart-toggle-drop_down toggle-cart-widget">
 
                         <a href="#" class="wcmenucart">
